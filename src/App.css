@@ -1,0 +1,26 @@
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  height: 100vh;
+}
+
+
+@keyframes animate-slideOutDown2{
+  /* .animate-SlideOutDown{ */
+    0% {
+      transform: translateY(calc(-100% - 100vh))
+    }
+  
+    100% {
+      transform: translateY(calc(100% + 100vh))
+    }
+    
+  }
+
+.linear-infinite{
+  animation: animate-slideOutDown2 6s linear infinite
+}
+
+
