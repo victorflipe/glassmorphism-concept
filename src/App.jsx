@@ -8,7 +8,7 @@ function App() {
           Glassmorphism Concept
         </h1>
         <div className=" flex justify-center self-center max-h-screen h-full overflow-hidden">
-          <div id="first-card" className="mt-[400px] z-20">
+          <div id="first-card" className="mt-[230px] z-20">
             <div className="relative border-solid border-x-white border-[1px] rounded-xl shadow-2x1 w-[500px] h-[300px]  glassmorphism-cardOne hover:glassmorphism-cardOne drop-shadow-2xl ">
               <div className="flex inline px-6 pt-4">
                 <h1 className="text-white font-bold text-xl text-left flex-1 uppercase">
@@ -30,7 +30,7 @@ function App() {
           </div>
           <div
             id="second-card"
-            className="rotate-[14deg] mt-[250px] -ml-[400px] z-10"
+            className="rotate-[14deg] mt-[120px] -ml-[400px] z-10"
           >
             <div className="relative border-solid border-x-white border-[1px] rounded-xl shadow-2x1 w-[500px] h-[300px] glassmorphism-cardTwo hover:glassmorphism-cardTwo drop-shadow-2xl">
               <div className="flex inline px-6 pt-4">
